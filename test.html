@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+
+<script>
+    // class User {
+    //     let privateStaticVar = 'foo';
+    //     constructor(name, age) {
+    //         this.name = name;
+    //         this._age = age;
+    //     }
+    //
+    //     displayInfo(){
+    //         document.write("Имя: " + this.name + "; возраст: " + this._age + "<br>");
+    //     };
+    //     getAge() {
+    //         return this._age;
+    //     }
+    //     setAge(age) {
+    //         if(typeof age === "number" && age >0 && age<110){
+    //             this._age = age;
+    //         } else {
+    //             console.log("Недопустимое значение");
+    //         }
+    //     }
+    // }
+    //
+    // class Animal extends User{
+    //     constructor(name, age){
+    //         super(name, age);
+    //     }
+    //
+    //     show(){
+    //         console.log(this.name);
+    //     }
+    // }
+    // Animal.prototype = new User();
+    //
+    // let user = new Animal("Dima", 29);
+    // let user2 = new Animal("BOBA", 23);
+    //
+    // // console.log(user._age);
+    // user.displayInfo();
+    // console.log(user2.getAge());
+
+
+
+
+
+
+  function addText(txt){
+      var txt = document.createTextNode(txt);
+      var p = document.createElement('p');
+      p.appendChild(txt);
+      document.body.appendChild(p);
+  }
+
+  addText("Hello world");
+
+</script>
+</body>
+</html>
